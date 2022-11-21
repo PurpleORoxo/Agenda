@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    label, input{
+        display: block;
+        line-height: 30px;
+        height: 30px;
+        outline: none;
+        font-size: 13px;
+        width:90%;
+        border-radius: 50px;
+    }
+
+    form{
+    width: 300px;
+    background-color: rgba(0,0,0, .2); 
+    border-radius: 10px;
+    border: 10px;
+    border-color: black;
+    padding: 20px;
+    margin: 6px auto;
+
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button{
+        appearance: none;
+    } 
+
+    input[type="submit"]{
+        margin-top: 10px ;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    table{
+        background-color: gray;
+        width: 90%;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    tr{
+        line-height: 30px;
+    }
+
+    td{
+        padding: 0px 5px;
+    }
+
+    a{
+
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+
+    }
+
+    tr#titulo{
+        font-weight: bold;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+    #tabela{
+        
+        width: 65%;
+        height: 500px;
+        float: right;
+    }
+    #forms{
+
+        width: 35%;
+        height: 500px;
+        float: left;
+    }

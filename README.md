@@ -1,1 +1,3 @@
-# Agenda
+- Samuel Felipe dos Santos 
+- Milena de Abreu 
+- Pedro Henrique Barbosa
